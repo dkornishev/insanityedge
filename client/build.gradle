@@ -1,4 +1,4 @@
-group 'org.insanityedge'
+group 'org.insanityedge.borderland'
 version '1.0-SNAPSHOT'
 
 buildscript {

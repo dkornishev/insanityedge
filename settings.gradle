@@ -1,3 +1,3 @@
 rootProject.name = 'borderland'
 
-include "client", "server"
+include "client", "server", "spark"

@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+    compile project(":server")
+
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.2"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
@@ -30,4 +32,9 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+}
+kotlin {
+    experimental {
+        coroutines "enable"
+    }
 }

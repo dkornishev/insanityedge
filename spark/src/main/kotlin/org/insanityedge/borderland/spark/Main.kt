@@ -1,4 +1,4 @@
-package org.insanityedge.server
+package org.insanityedge.borderland.spark
 
 import kotlinx.coroutines.experimental.async
 import spark.Spark.*
@@ -15,9 +15,7 @@ fun main(args: Array<String>) {
 }
 
 suspend fun runthings() {
-
 }
-
 
 fun someAsync() = async {
     println("Hello")

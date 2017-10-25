@@ -1,4 +1,4 @@
-package org.insanityedge.server
+package org.insanityedge.borderland.spark
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.eclipse.jetty.websocket.api.Session

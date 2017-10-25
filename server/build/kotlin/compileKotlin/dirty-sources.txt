@@ -1,3 +1,0 @@
-/Users/e065654/Documents/projects/borderland/server/src/main/kotlin/org/insanityedge/server/InsanityServer.kt
-/Users/e065654/Documents/projects/borderland/server/src/main/kotlin/org/insanityedge/server/model/InsaneRpcRequest.kt
-/Users/e065654/Documents/projects/borderland/server/src/main/kotlin/org/insanityedge/server/Main.kt
